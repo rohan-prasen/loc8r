@@ -41,7 +41,7 @@ module.exports.locationInfo = function(req, res) {
             callToAction: 'If you\'ve been and you like it - or if you don\'t -please leave a review to help other people just like you.'
         },
         location: {
-            name: 'Starcups',
+            name: 'Starbucks',
             address: 'Besides Iron Hill gym, Sainikpuri.',
             rating: 3,
             facilities: ['Hot drinks', 'Food', 'Hi-speed WIFI'],
@@ -186,3 +186,5 @@ module.exports.addReview = function(req, res){
         }
     });
 };
+
+db.locations.insertOne({name: "McDonalds'",address: 'Besides HP petrol pump, Opposite to Central Biryani Pointe, NNRG crossroads, Ghatkesar',rating: 4, facilities: ['Food', 'Soft drinks', 'Ice Creams', 'Hi-speed WIFI'],coords: [-0.9690884, 51.455041],openingTimes: [{days: 'Monday - Friday', opening: '7:00am',closing: '7:00pm', closed: false},{days: 'Saturday', opening: '8:00am', closing: '5:00pm', closed: false},{days: 'Sunday', closed: true}]})
