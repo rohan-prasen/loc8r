@@ -21,7 +21,7 @@ module.exports.homelist = function(req, res) {
             distance: '2000m'
         }, {
             name: "McDonalds'",
-            address: 'Besides HP petrol pump, Opposite to Central Biryani Pointe, NNRG crossroads, Ghatkesar',
+            address: 'Besides HP petrol pump, Opposite to Central Biryani Pointe, NNRG crossroads, Ghatkesar.',
             rating: 4,
             facilities: ['Food', 'Soft drinks', 'Ice Creams', 'Hi-speed WIFI'],
             distance: '1000m'
@@ -66,12 +66,12 @@ module.exports.locationInfo = function(req, res) {
             reviews: [{
                 author: 'Simon Holmes',
                 rating: 5,
-                timestamp: '16 July 2013',
+                timestamp: '16 July 2018',
                 reviewText: 'What a great place. I can\'t say enough good things about it.'
             }, {
                 author: 'Charlie Chaplin',
                 rating: 3,
-                timestamp: '16 June 2013',
+                timestamp: '16 June 2019',
                 reviewText: 'It was okay. Coffee wasn\'t great, but the wifi was fast.'
             }]
         }
@@ -115,7 +115,7 @@ module.exports.locationInfo2 = function(req, res) {
             reviews: [{
                 author: 'Nick Jonas',
                 rating: 5,
-                timestamp: '16 July 2013',
+                timestamp: '16 July 2017',
                 reviewText: 'What a great place. I can\'t say enough good things about it.'
             }, {
                 author: 'Karthik Aryan',
