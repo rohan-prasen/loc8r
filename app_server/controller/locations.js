@@ -186,5 +186,3 @@ module.exports.addReview = function(req, res){
         }
     });
 };
-
-db.locations.insertOne({name: "McDonalds'",address: 'Besides HP petrol pump, Opposite to Central Biryani Pointe, NNRG crossroads, Ghatkesar',rating: 4, facilities: ['Food', 'Soft drinks', 'Ice Creams', 'Hi-speed WIFI'],coords: [-0.9690884, 51.455041],openingTimes: [{days: 'Monday - Friday', opening: '7:00am',closing: '7:00pm', closed: false},{days: 'Saturday', opening: '8:00am', closing: '5:00pm', closed: false},{days: 'Sunday', closed: true}]})
